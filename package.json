@@ -4,17 +4,17 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/gabrielazalta/e-commerce-back-end.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "gabriela zalta",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.3"
@@ -22,7 +22,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mysql2": "^2.1.0",
-    "sequelize": "^5.21.7"
+    "mysql2": "^2.2.5",
+    "sequelize": "^5.22.3"
   }
 }
